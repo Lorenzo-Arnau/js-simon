@@ -42,7 +42,7 @@ $(document).ready(function(){
             }
           }
           if (counter === proofs) {
-            $('.results').text('Che memoria li ha presi tutti e ' + counter + '! E sono: ' + numeriCorretti);
+            $('.results').text('Che memoria! Li hai presi tutti e ' + counter + '! E sono: ' + numeriCorretti);
           }else if(counter === 1){
             $('.results').text('Ne hai azzeccato solo ' + counter + '! Ed è: ' + numeriCorretti);
           }else {
