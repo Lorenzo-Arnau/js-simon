@@ -11,6 +11,7 @@ $(document).ready(function(){
 
   $('.button').click(function(){
     for (var i = 0; i < proofs; i++) {
+      $('.button').hide();
       var numeroCasuale = randomNumber(1,100);
       simonNumbers.push(numeroCasuale);
     }
